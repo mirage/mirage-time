@@ -22,6 +22,6 @@
 
 open Mirage_time
 
-module type SLEEP = SLEEP with type 'a io = 'a Lwt.t
+module type S = S with type 'a io = 'a Lwt.t
 module type MCLOCK = MCLOCK with type 'a io = 'a Lwt.t
 module type PCLOCK = PCLOCK with type 'a io = 'a Lwt.t

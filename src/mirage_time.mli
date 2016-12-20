@@ -18,13 +18,13 @@
 
 (** {1 Time-related devices}
 
-    This module define time-related devices for MirageOS and time
-    operations for cooperative threads.
+    This module define time-related devices for MirageOS and
+    sleep operations.
 
     {e Release %%VERSION%% } *)
 
-(** Time operations for cooperative threads. *)
-module type SLEEP = sig
+(** Sleep operations. *)
+module type S = sig
 
   type +'a io
   (** The type for potentially blocking I/O operation *)
