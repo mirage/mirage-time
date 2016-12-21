@@ -1,12 +1,9 @@
-## mirage-time -- Time signatures for MirageOS
+## mirage-time -- Time operations for MirageOS
 
-mirage-time defines [Mirage_time.SLEEP][1], [Mirage_time.PCLOCK][2]
-and [Mirage_time.PCLOCK][3], the signature for time-related devices
-for MirageOS.
+mirage-time defines [Mirage_time.S][1] the signature for
+time-related operations for MirageOS.
 
-[1]: https://mirage.github.io/mirage-time/Mirage_time.SLEEP.html
-[2]: https://mirage.github.io/mirage-time/Mirage_time.PCLOCK.html
-[3]: https://mirage.github.io/mirage-time/Mirage_time.MCLOCK.html
+[1]: https://mirage.github.io/mirage-time/Mirage_time.S.html
 
 ### Installation
 
