@@ -6,6 +6,7 @@ install: wget https://raw.githubusercontent.com/ocaml/ocaml-travisci-skeleton/ma
 script: bash ./.travis-docker.sh
 env:
  global:
+   - PINS="mirage-time:. mirage-time-lwt:."
    - PACKAGE="mirage-time"
    - DEPOPTS="mirage-time-lwt"
  matrix:
