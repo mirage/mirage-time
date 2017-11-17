@@ -4,8 +4,11 @@ install: wget https://raw.githubusercontent.com/ocaml/ocaml-ci-scripts/master/.t
 script: bash -ex .travis-opam.sh
 env:
  global:
-   - PINS="mirage-time.dev:. mirage-time-lwt.dev:. mirage-time-unix.dev:."
+   - PINS="mirage-time:. mirage-time-lwt:. mirage-time-unix:."
  matrix:
    - OCAML_VERSION=4.04 PACKAGE="mirage-time"
    - OCAML_VERSION=4.04 PACKAGE="mirage-time-lwt"
    - OCAML_VERSION=4.04 PACKAGE="mirage-time-unix"
+   - OCAML_VERSION=4.06 PACKAGE="mirage-time"
+   - OCAML_VERSION=4.06 PACKAGE="mirage-time-lwt"
+   - OCAML_VERSION=4.06 PACKAGE="mirage-time-unix"
