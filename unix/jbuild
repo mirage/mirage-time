@@ -1,7 +1,0 @@
-(jbuild_version 1)
-
-(library
-  ((name        mirage_time_unix)
-   (public_name mirage-time-unix)
-   (wrapped     false)
-   (libraries   (lwt.unix mirage-time-lwt duration))))

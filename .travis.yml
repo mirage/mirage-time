@@ -15,3 +15,6 @@ env:
    - OCAML_VERSION=4.06 PACKAGE="mirage-time"
    - OCAML_VERSION=4.06 PACKAGE="mirage-time-lwt"
    - OCAML_VERSION=4.06 PACKAGE="mirage-time-unix"
+   - OCAML_VERSION=4.07 PACKAGE="mirage-time"
+   - OCAML_VERSION=4.07 PACKAGE="mirage-time-lwt"
+   - OCAML_VERSION=4.07 PACKAGE="mirage-time-unix"
