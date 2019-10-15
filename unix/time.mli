@@ -14,6 +14,5 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *)
 
-(** Implementation of the [Mirage_time_lwt.S] signature for the unix
-    backend. *)
-include Mirage_time_lwt.S
+(** Implementation of the [Mirage_time.S] signature for the unix backend. *)
+include Mirage_time.S
