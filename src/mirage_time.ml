@@ -25,12 +25,7 @@
 
 (** Sleep operations. *)
 module type S = sig
-
-  type +'a io
-  (** The type for potentially blocking I/O operation *)
-
-  val sleep_ns: int64 -> unit io
+  val sleep_ns: int64 -> unit Lwt.t
   (** [sleep_ns n] Block the current thread for [n] nanoseconds, treating
       the [n] unsigned.  *)
-
 end

@@ -1,3 +1,4 @@
 (library
  (name mirage_time)
- (public_name mirage-time))
+ (public_name mirage-time)
+ (libraries lwt))
