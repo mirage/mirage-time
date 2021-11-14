@@ -1,6 +1,6 @@
-## v3.0.0
+## v3.0.0 (2021-11-15)
 
-* Remove Mirage_time_lwt module
+* Remove Mirage_time_lwt module (#13 @hannesm)
 
 ## v2.0.1 (2019-11-04)
 
