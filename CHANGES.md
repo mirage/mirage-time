@@ -1,3 +1,7 @@
+## v3.0.0
+
+* Remove Mirage_time_lwt module
+
 ## v2.0.1 (2019-11-04)
 
 * provide deprecated Mirage_time_lwt for smooth transition (#12 @hannesm)
